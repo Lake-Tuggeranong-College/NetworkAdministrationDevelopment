@@ -1,7 +1,8 @@
 services:
   web:
+    image: php:8.5-apache
     build: .
-    container_name: student_php_dev
+    container_name: Scarif_dev
     ports:
       - "8080:80"
     volumes:
